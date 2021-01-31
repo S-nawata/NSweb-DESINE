@@ -1,0 +1,55 @@
+@import "header" ;
+@import "eyecatch";
+@import "news";
+
+html {
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    background-color:rgb(222, 249, 253);
+}
+
+.title {
+    width: 30%;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 30px;
+   
+
+    h1 {
+        border-bottom: solid blue;
+        font-family: 'HiraMinPro-W6'; 
+        border-width: 0.5px;
+    }
+    p {
+        font-size: 20px;
+        line-height: 3;
+    }
+}
+
+.title1 {
+    width: 30%;
+    font-size: 30px;
+    margin-top: 20px;
+
+    text-align: end;
+    margin: 0 0 0 auto;
+    margin-right: 30px;
+    h1 {
+        border-bottom: solid tomato;
+        border-width: 0.5px;
+        font-family: 'HiraMinPro-W6';
+
+    }
+    p {
+        font-size: 20px;
+        text-align: left;
+        line-height: 3;
+    }
+}
+
+a:hover {
+    color: red;
+}

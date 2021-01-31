@@ -1,0 +1,172 @@
+header {
+  background-color: silver;
+  background: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header li {
+  margin-left: 2rem;
+}
+
+header li:last-child {
+  margin-right: 1rem;
+}
+
+img {
+  height: 3.5rem;
+}
+
+#eyecatch {
+  width: 100%;
+  position: relative;
+}
+
+#eyecatch img {
+  width: 30%;
+  height: auto;
+  position: absolute;
+  left: 35%;
+  top: 69%;
+}
+
+#eyecatch ul {
+  margin-top: 20px;
+}
+
+#eyecatch #button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#eyecatch #bg-img {
+  background-image: url(./zubottysora0416_TP_V.jpg);
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+#eyecatch #bg-img #massage {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 30px;
+}
+
+#eyecatch #bg-img #massage p {
+  margin: 0;
+  font-size: 80px;
+}
+
+#news {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#news .news-wrap {
+  margin-top: 30px;
+}
+
+#news :last-child {
+  margin-right: 15px;
+}
+
+#news :last-child p {
+  margin-left: 0;
+}
+
+#news :first-child {
+  margin-left: 30px;
+}
+
+#news :first-child p {
+  margin-left: 0;
+}
+
+.coment {
+  padding-left: 30px;
+}
+
+tr {
+  border-bottom: solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 1px;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+  background-color: #def9fd;
+}
+
+.title {
+  width: 30%;
+  margin-top: 20px;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.title h1 {
+  border-bottom: solid blue;
+  font-family: 'HiraMinPro-W6';
+  border-width: 0.5px;
+}
+
+.title p {
+  font-size: 20px;
+  line-height: 3;
+}
+
+.title1 {
+  width: 30%;
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: end;
+  margin: 0 0 0 auto;
+  margin-right: 30px;
+}
+
+.title1 h1 {
+  border-bottom: solid tomato;
+  border-width: 0.5px;
+  font-family: 'HiraMinPro-W6';
+}
+
+.title1 p {
+  font-size: 20px;
+  text-align: left;
+  line-height: 3;
+}
+
+a:hover {
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */
