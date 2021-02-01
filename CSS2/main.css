@@ -151,6 +151,32 @@ footer p {
   text-align: center;
 }
 
+#title-view .title-bg {
+  height: 90vh;
+  background-image: url(./3470026_m.jpg);
+  background-size: cover;
+  background-position: left;
+  position: relative;
+}
+
+#title-view p, #title-view h1 {
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+}
+
+#title-view h1 {
+  font-size: 150px;
+  color: white;
+  opacity: 0.5;
+}
+
+#title-view p {
+  font-size: 50px;
+  color: white;
+  font-family: 'HiraMinPro-W6';
+}
+
 html {
   font-size: 20px;
 }
