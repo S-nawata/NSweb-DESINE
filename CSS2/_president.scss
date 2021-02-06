@@ -1,0 +1,16 @@
+#president {
+    display: flex;
+    justify-content: space-around;
+    div {
+        width: 50%;
+        line-height: 200%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    };
+    img{
+        width: 30%;
+        height: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    };
+}

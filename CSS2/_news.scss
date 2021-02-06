@@ -9,9 +9,11 @@
         margin-bottom: 30px;
         padding-bottom: 30px;
         border: solid;
+        border-width: 1px;
     }
     :last-child{
         border-right:none;
+        border-left: none;
         p {
             margin-left: 0;
             text-align: center;

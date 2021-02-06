@@ -92,10 +92,12 @@ img {
   margin-bottom: 30px;
   padding-bottom: 30px;
   border: solid;
+  border-width: 1px;
 }
 
 #news :last-child {
   border-right: none;
+  border-left: none;
 }
 
 #news :last-child p {
@@ -306,6 +308,28 @@ footer p {
   height: 600px;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+#president {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#president div {
+  width: 50%;
+  line-height: 200%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#president img {
+  width: 30%;
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 html {
