@@ -332,6 +332,53 @@ footer p {
   margin-bottom: 100px;
 }
 
+#company-intro {
+  width: 100%;
+}
+
+#company-intro h2 {
+  margin-left: 30px;
+  border-bottom: solid red;
+  border-width: 1px;
+  width: 40%;
+}
+
+ul {
+  margin-left: 30px;
+  list-style: decimal;
+}
+
+.company-view {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.company-view .company-view1 {
+  width: 45%;
+  height: 600px;
+  background-color: red;
+}
+
+.company-view .company-view1 p {
+  font-size: 30px;
+  text-align: center;
+  line-height: 600px;
+  height: 600px;
+}
+
+.company-view1:first-child {
+  margin-left: 30px;
+}
+
+.company-view1:last-child {
+  margin-right: 30px;
+}
+
 html {
   font-size: 20px;
 }
